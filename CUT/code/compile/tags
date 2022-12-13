@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/vidyashree/Desktop/SBMS/CUT/code/compile/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/50f60b84/
+add_busstop	../src/main.c	/^void add_busstop()$/;"	f	typeref:typename:void
+appendBusroute	../src/brlinkedlist.c	/^void appendBusroute(busroute **headPointer, busroute* data)$/;"	f	typeref:typename:void
+appendStudent	../src/stlinkedlist.c	/^int appendStudent(student **headPointer, student* data)$/;"	f	typeref:typename:int
+display_Busroute	../src/brutility.c	/^void display_Busroute(busroute* br)$/;"	f	typeref:typename:void
+display_Student	../src/stutility.c	/^void display_Student(student* st)$/;"	f	typeref:typename:void
+display_busstops	../src/main.c	/^void display_busstops()$/;"	f	typeref:typename:void
+doAddStudent	../src/main.c	/^void doAddStudent(student**st)$/;"	f	typeref:typename:void
+doChangeStudentDepartment	../src/main.c	/^void doChangeStudentDepartment(student** st)$/;"	f	typeref:typename:void
+doDisplayAddbusStop	../src/main.c	/^void doDisplayAddbusStop(student** st)$/;"	f	typeref:typename:void
+doDisplayStudent	../src/main.c	/^void doDisplayStudent(student**st)$/;"	f	typeref:typename:void
+doRemoveStudent	../src/main.c	/^void doRemoveStudent(student** st)$/;"	f	typeref:typename:void
+freeBusrouteLinkedList	../src/brlinkedlist.c	/^void freeBusrouteLinkedList(busroute** br)$/;"	f	typeref:typename:void
+freeStudentLinkedList	../src/stlinkedlist.c	/^int freeStudentLinkedList(student** st)$/;"	f	typeref:typename:int
+insertAfter	../src/brlinkedlist.c	/^int  insertAfter(int brId , busroute** headP, busroute* newbr, busroute **tailP)$/;"	f	typeref:typename:int
+loadFromFileBusroute	../src/brlinkedlist.c	/^int loadFromFileBusroute(const char *fileName, busroute **headPointer)$/;"	f	typeref:typename:int
+loadFromFile_br	../src/brutility.c	/^int loadFromFile_br(const char *fileName, busroute **headPointer)$/;"	f	typeref:typename:int
+loadFromFile_st	../src/stutility.c	/^int loadFromFile_st(const char *fileName, student **headPointer)$/;"	f	typeref:typename:int
+loadFromFilestudent	../src/stlinkedlist.c	/^int loadFromFilestudent(const char *fileName, student **headPointer)$/;"	f	typeref:typename:int
+main	../src/main.c	/^int main(int argc, char** argv)$/;"	f	typeref:typename:int
+menu	../src/main.c	/^void  menu(student** st)$/;"	f	typeref:typename:void
+printBusrouteLinkedList	../src/brutility.c	/^void printBusrouteLinkedList(busroute *br)$/;"	f	typeref:typename:void
+printStudentLinkedList	../src/stutility.c	/^void printStudentLinkedList(student *st)$/;"	f	typeref:typename:void
+removeStudent	../src/main.c	/^int removeStudent(student** st, int stId)$/;"	f	typeref:typename:int
+searchBusroute	../src/brlinkedlist.c	/^busroute* searchBusroute (busroute* headPointer, int brId)$/;"	f	typeref:typename:busroute *
+searchBusrouteName	../src/brlinkedlist.c	/^busroute* searchBusrouteName (busroute* headPointer, const char* stfirstName)$/;"	f	typeref:typename:busroute *
+searchStudentId	../src/stlinkedlist.c	/^student* searchStudentId (student* headPointer, int stId)$/;"	f	typeref:typename:student *
+searchStudentName	../src/stlinkedlist.c	/^student* searchStudentName (student* headPointer, const char* stfirstName)$/;"	f	typeref:typename:student *
